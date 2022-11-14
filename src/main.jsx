@@ -1,10 +1,11 @@
-import React, { createContext } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import {Home} from './componentes/Home'
 import {Producto} from './componentes/Producto'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import {Balance} from './componentes/Balance'
+import { createContext } from 'react'
 import './index.css'
 
 export const Context = createContext(null)
